@@ -27,4 +27,7 @@ Most of the code in the HLOC (https://github.com/cvg/Hierarchical-Localization) 
 ## COLMAP
 Many changes during this process were made to the source files of the COLMAP (https://github.com/colmap/colmap, https://colmap.github.io/) repository. This repository is not included here due to its size, and many of the  changes require some familiarity with the codebase to elaborate on. Most of the options are available through the GUI version of COLMAP, however to use it with DISK and SuperGlue (feature extraction and matching methods used in this work), COLMAP was compiled from source. Most changes were on the route of testing the necessity of different parts of the SfM pipeline (one example is turning off global bundle adjustment during the SfM process) or fixing unwanted behaviour (wrong undistortion results for SIMPLE_RADIAL camera models were fixed by changing the minimum ratio allowed for the end resulting images). Unfortunately, any change requires a rebuild of the COLMAP codebase (and pycolmap afterwards), which is not ideal.
 Setting up COLMAP locally was not simple, however this github issue (https://github.com/colmap/colmap/issues/2481) and the comments by Linusnie solved most of my problems. For any additional problems, it is highly advised to search through the issues posted in the COLMAP repostiory, or open new issues.
+
+
+For any questions feel free to leave an issue or contact me at demicswork@gmail.com
  
