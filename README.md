@@ -1,10 +1,18 @@
 # SfM applications for 3D reconstruction from 2D avionics industrial inspection videos
 
+
+<p align="center">
+<img src='pictures/dense_composite.png' width='600'>
+</p>
+
 ## Description
 This project consists of several changes on top of existing repositories in an effort to improve 3D reconstruction results for specific avionics industrial inspection videos. The list of the changes proposed can be found alongside the thesis at https://repository.tudelft.nl/record/uuid:5d33eed9-8939-4f1b-ba88-47e579d05cce.
 
 ## Data
-The data is not available publicly.
+The data is not available publicly, however an example from the dataset can be seen below:
+<p align="center">
+<img src='pictures/example_image.png' width='300'>
+</p>
 
 ## Environments
 All environments LLFF, NeRF_PL, DSNeRF and Hierarchical-Localization work best separately, with updated requirements.txt files for all of them (following what was used in during the thesis project).
